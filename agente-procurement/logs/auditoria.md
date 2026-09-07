@@ -115,3 +115,19 @@ y con qué resultado**.
      vigencia posterior al término del servicio (sí especifica el
      monto: 12%).
 - Responsable / agente: análisis comercial (`03_analisis_comercial.md`).
+
+### 2026-09-07 00:00 — Ranking ponderado (borrador) — 128-2026
+- Acción: cálculo del ranking ponderado con los pesos exactos de las
+  Bases (técnico 60% = Experiencia+Plazo+Cumplimiento técnico; comercial
+  40% = Precio). Guardado como borrador en
+  `outputs/ranking_128-2026.md`.
+- Resultado: C obtiene el puntaje bruto más alto (6,66/7,00) pero queda
+  EXCLUIDO del ranking oficial por inadmisibilidad de precio. Entre las
+  ofertas admisibles: 1° B (5,9151), 2° A (5,12).
+- Alertas: diferencia de puntaje entre B y A = 0,80 puntos, bajo el
+  umbral de 2 puntos definido por el usuario para notificación de
+  empate/proximidad — se notificó al usuario antes de proponer
+  shortlist, junto con la solicitud de definir el tamaño N de la
+  shortlist (no especificado en la instrucción). Ranking pendiente de
+  confirmación final.
+- Responsable / agente: ranking (`04_ranking.md`), pendiente de cierre.
