@@ -183,3 +183,30 @@ y con qué resultado**.
 - Alertas: ninguna nueva.
 - Responsable / agente: preparación de segunda ronda (post
   `04_ranking.md`, previo a `05_informe.md`).
+
+### 2026-09-07 00:00 — Informe final de evaluación (borrador Word) — 128-2026
+- Acción: el usuario informó que la shortlist fue aprobada y solicitó el
+  informe final en formato Word editable (`05_informe.md`). Se generó
+  `outputs/Informe_Evaluacion_128-2026.docx` con: resumen ejecutivo,
+  tabla comparativa técnica y comercial, análisis detallado por
+  proveedor (fortalezas/debilidades/alertas/puntaje), ranking final
+  ponderado con recomendación, y anexo de criterios y pesos.
+  Destinatario seleccionado por el agente (no especificado por el
+  usuario): Comité Directivo / Comité de Evaluación, dado que el
+  contenido incluye una decisión de admisibilidad pendiente de
+  resolución del Directorio. El informe se marcó explícitamente como
+  BORRADOR (no se recomienda adjudicación en esta etapa) y excluye por
+  completo el contenido de la Minuta Confidencial de Negociación,
+  documentando solo su existencia y el momento en que, si procede,
+  podría aplicarse (negociación posterior a la adjudicación).
+- Resultado: documento validado estructuralmente (XML válido, texto e
+  imágenes/tablas íntegras). No fue posible renderizar una vista previa
+  en PDF en este entorno (LibreOffice no logra abrir ningún archivo,
+  incluido uno mínimo de prueba — limitación del entorno, no del
+  documento). El archivo no fue enviado ni compartido con nadie,
+  conforme a la instrucción del usuario; queda solo en el repositorio
+  para su revisión.
+- Alertas: ninguna nueva. Se mantiene la recomendación de no adjudicar
+  hasta cerrar la segunda ronda y obtener la resolución del Directorio
+  sobre NH3 Technologies.
+- Responsable / agente: informe final (`05_informe.md`).
