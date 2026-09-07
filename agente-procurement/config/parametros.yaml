@@ -1,0 +1,85 @@
+# =============================================================================
+# parametros.yaml
+# Parámetros de configuración del Agente de Evaluación de Propuestas
+# Ajustar estos valores según los criterios definidos por Procurement
+# para cada proceso de licitación.
+# =============================================================================
+
+proceso:
+  # Nombre/código del proceso de licitación al que aplica esta configuración
+  nombre: "Ejemplo - Licitación Servicios Generales 2026"
+  codigo: "RFP-2026-001"
+  # Responsable del proceso dentro de Procurement
+  responsable: "Nombre Apellido - Procurement"
+  # Fecha de apertura y cierre de recepción de propuestas (YYYY-MM-DD)
+  fecha_apertura: "2026-09-01"
+  fecha_cierre_propuestas: "2026-09-30"
+
+# -----------------------------------------------------------------------------
+# Pesos de evaluación
+# La suma de los pesos técnico + comercial debe ser 1.0 (100%)
+# -----------------------------------------------------------------------------
+pesos_evaluacion:
+  tecnico: 0.6      # 60% del puntaje final corresponde al análisis técnico
+  comercial: 0.4    # 40% del puntaje final corresponde al análisis comercial/financiero
+
+# -----------------------------------------------------------------------------
+# Subcriterios técnicos y sus ponderaciones internas (deben sumar 1.0)
+# -----------------------------------------------------------------------------
+subcriterios_tecnicos:
+  cumplimiento_especificaciones: 0.35
+  experiencia_proveedor: 0.25
+  capacidad_operativa: 0.20
+  calidad_propuesta_metodologica: 0.20
+
+# -----------------------------------------------------------------------------
+# Subcriterios comerciales y sus ponderaciones internas (deben sumar 1.0)
+# -----------------------------------------------------------------------------
+subcriterios_comerciales:
+  precio: 0.50
+  condiciones_de_pago: 0.20
+  plazo_de_entrega: 0.20
+  salud_financiera_proveedor: 0.10
+
+# -----------------------------------------------------------------------------
+# SLA mínimos exigidos por categoría de servicio/producto
+# Tiempos en días corridos salvo que se indique lo contrario
+# -----------------------------------------------------------------------------
+sla_minimos:
+  entrega_bienes_dias: 15          # Plazo máximo aceptable de entrega de bienes
+  instalacion_servicios_dias: 10   # Plazo máximo para inicio de servicio
+  tiempo_respuesta_soporte_horas: 24  # Tiempo máximo de respuesta a incidencias
+  disponibilidad_servicio_pct: 99.0   # Disponibilidad mínima exigida (%)
+
+# -----------------------------------------------------------------------------
+# Umbrales de alerta de precios
+# -----------------------------------------------------------------------------
+umbrales_alerta_precio:
+  # Alerta si el precio de una propuesta se desvía más de este % respecto
+  # al promedio de todas las propuestas recibidas
+  desviacion_maxima_vs_promedio_pct: 20
+  # Alerta si el precio está por debajo de este % del presupuesto referencial
+  # (posible indicio de oferta anormalmente baja)
+  precio_anormalmente_bajo_pct: 40
+  # Alerta si el precio supera el presupuesto referencial en este %
+  precio_sobre_presupuesto_pct: 10
+
+# -----------------------------------------------------------------------------
+# Parámetros de alertas de plazo (monitoreo del proceso)
+# -----------------------------------------------------------------------------
+alertas_plazo:
+  # Días de anticipación antes del cierre de recepción de propuestas
+  dias_anticipacion_cierre_propuestas: 5
+  # Días de anticipación antes de vencimiento de garantías/boletas
+  dias_anticipacion_vencimiento_garantias: 10
+  # Días de anticipación antes de la fecha comprometida de entrega/informe
+  dias_anticipacion_entrega_informe: 3
+
+# -----------------------------------------------------------------------------
+# Parámetros generales del proceso
+# -----------------------------------------------------------------------------
+parametros_proceso:
+  numero_minimo_propuestas_validas: 2   # Mínimo de propuestas para poder evaluar
+  puntaje_minimo_aprobacion: 60         # Puntaje final mínimo (sobre 100) para shortlist
+  moneda_referencia: "CLP"
+  idioma_informes: "es"
