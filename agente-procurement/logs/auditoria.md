@@ -56,3 +56,25 @@ y con qué resultado**.
      imparcialidad del proceso.
 - Responsable / agente: ingesta de documentos (paso previo a
   `01_ingesta.md`).
+
+### 2026-09-07 00:00 — Análisis técnico (scorecard) — 128-2026
+- Acción: evaluación técnica de las 3 propuestas (A: Frío Industrial
+  Andino, B: RefriGlobal Ingeniería, C: NH3 Technologies) según
+  `02_analisis_tecnico.md`, utilizando exclusivamente los criterios y
+  ponderaciones de `Matriz_Evaluacion_Tecnica_Licitacion_128-2026.xlsx`
+  (Experiencia 25%, Plazo de entrega 15%, Cumplimiento técnico 20% —
+  total 60%). El criterio Precio (40%) quedó fuera de este scorecard,
+  reservado para `03_analisis_comercial.md`. La Minuta Confidencial de
+  Negociación NO fue utilizada como insumo, conforme a la alerta
+  registrada en la entrada anterior.
+- Resultado: ranking técnico preliminar C > B > A. Sin incumplimientos
+  de requisitos técnicos mínimos en ninguna propuesta (las 3 cumplen las
+  especificaciones mínimas exigidas en el punto 6 de las Bases).
+  Scorecard completo guardado en
+  `outputs/scorecard_tecnico_128-2026.xlsx`. Pendiente de aprobación del
+  usuario antes de continuar a análisis comercial.
+- Alertas: ninguna nueva (se mantienen las de la entrada de ingesta:
+  Anexo N°5 no presentado por ningún oferente, y precio de Oferente C
+  sobre el margen de admisibilidad de 5%, ambas de naturaleza
+  comercial/administrativa, no técnica).
+- Responsable / agente: análisis técnico (`02_analisis_tecnico.md`).
