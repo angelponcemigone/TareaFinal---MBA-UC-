@@ -78,3 +78,40 @@ y con qué resultado**.
   sobre el margen de admisibilidad de 5%, ambas de naturaleza
   comercial/administrativa, no técnica).
 - Responsable / agente: análisis técnico (`02_analisis_tecnico.md`).
+
+### 2026-09-07 00:00 — Análisis comercial y financiero — 128-2026
+- Acción: análisis comercial de las 3 propuestas según
+  `03_analisis_comercial.md`. Se incorporó
+  `Politica_de_Compras_Agroindustrial_Los_Robles.md` (POL-ABA-01) como
+  insumo de política interna. El criterio Precio se calculó con la
+  fórmula y peso oficial de la matriz (40%, Nota = MIN(precios)/precio×7).
+  Condiciones de pago, plazos, garantías y SLA se documentaron como
+  observaciones/alertas, sin ponderar subcriterios fuera de la matriz
+  oficial. La Minuta Confidencial de Negociación se mantuvo excluida de
+  la calificación; conforme al punto 7 de POL-ABA-01, sus lineamientos
+  solo son aplicables, si procede, en la etapa de negociación posterior
+  a la adjudicación con el oferente mejor evaluado — no se usó para
+  puntuar ni descalificar ninguna propuesta en esta etapa.
+- Resultado: comparativo comercial guardado en
+  `outputs/comparativo_comercial_128-2026.xlsx`; fila de Precio
+  completada en `outputs/scorecard_tecnico_128-2026.xlsx`. Ninguna
+  propuesta se desvía más de ±20% del precio promedio del grupo.
+  Pendiente de aprobación del usuario antes de generar el ranking final
+  (`04_ranking.md`).
+- Alertas:
+  1. **Inadmisibilidad de precio — Oferente C**: $197.200.000 excede en
+     5,74% el presupuesto referencial ($186.500.000), sobre el margen
+     máximo de 5% fijado en el punto 3 de las Bases y confirmado como
+     causal de inadmisibilidad en el punto 5 de POL-ABA-01.
+  2. **Documentación incompleta**: ningún oferente presentó el Anexo N°5
+     (oferta económica desglosada por ítem) exigido en el punto 8 de las
+     Bases.
+  3. **SLA no informado**: ninguna propuesta declaró tiempos de
+     respuesta de soporte ni disponibilidad de servicio (referencia
+     interna: `sla_minimos` en `parametros.yaml`).
+  4. **Salud financiera no informada**: ninguna propuesta incluyó
+     antecedentes financieros o de solvencia.
+  5. **Boleta de garantía — Oferente C**: no especifica plazo de
+     vigencia posterior al término del servicio (sí especifica el
+     monto: 12%).
+- Responsable / agente: análisis comercial (`03_analisis_comercial.md`).
