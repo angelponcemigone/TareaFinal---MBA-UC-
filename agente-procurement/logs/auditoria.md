@@ -157,3 +157,29 @@ y con qué resultado**.
 - Responsable / agente: ranking (`04_ranking.md`) — cerrado, a la espera
   de que el usuario avance a `05_informe.md` y de la autorización formal
   pendiente respecto de C.
+
+### 2026-09-07 00:00 — Pasos pendientes de la segunda ronda — 128-2026
+- Acción: a solicitud del usuario ("avanzar con estos pasos
+  pendientes"), se redactaron los documentos accionables identificados
+  en el ranking:
+  1. `outputs/Solicitud_Aclaraciones_128-2026.md` — solicitud de Anexo
+     N°5, SLA y salud financiera a los 3 oferentes en los mismos
+     términos y plazo (igualdad de trato, POL-ABA-01 §2), más el
+     requerimiento adicional de vigencia de boleta a C.
+  2. `documentos/internos/Solicitud_Autorizacion_Directorio_Excepcion_Precio_C_128-2026.md`
+     — memo formal solicitando al Directorio pronunciarse sobre la
+     excepción de admisibilidad de precio de C, con riesgos de
+     igualdad de trato y transparencia explicitados.
+  3. `outputs/Acta_Evaluacion_128-2026.md` — acta de evaluación
+     consolidada (POL-ABA-01 §10), con puntajes, admisibilidad, alerta
+     de proximidad y shortlist, pendiente de firma del Comité real.
+  No se realizó ningún envío ni comunicación real a oferentes ni al
+  Directorio: los tres son borradores para revisión y validación del
+  usuario antes de su uso formal.
+- Resultado: quedan pendientes de la Gerencia de Abastecimiento: (a)
+  completar y enviar la solicitud de aclaraciones con plazo definido,
+  (b) elevar el memo al Directorio y registrar su resolución, (c)
+  completar nombres y firmas del acta de evaluación.
+- Alertas: ninguna nueva.
+- Responsable / agente: preparación de segunda ronda (post
+  `04_ranking.md`, previo a `05_informe.md`).
