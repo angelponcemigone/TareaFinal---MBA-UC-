@@ -131,3 +131,29 @@ y con qué resultado**.
   shortlist (no especificado en la instrucción). Ranking pendiente de
   confirmación final.
 - Responsable / agente: ranking (`04_ranking.md`), pendiente de cierre.
+
+### 2026-09-07 00:00 — Ranking ponderado confirmado y shortlist — 128-2026
+- Acción: el usuario respondió la alerta de proximidad y definió el
+  tamaño de la shortlist. Ranking actualizado a estado confirmado en
+  `outputs/ranking_128-2026.md`.
+- Resultado: se mantiene el orden B (1°, 5,9151) > A (2°, 5,12), tal
+  como resulta del puntaje ponderado oficial. El usuario definió una
+  shortlist de N=3, incorporando a C (NH3 Technologies) pese a su
+  inadmisibilidad de precio, por decisión expresa suya.
+- Alertas:
+  1. **Excepción de admisibilidad no autorizada formalmente**: la
+     inclusión de C en la shortlist es una decisión del usuario en este
+     ejercicio, pero conforme al punto 3 de POL-ABA-01 (la adjudicación
+     de licitaciones públicas sobre $120.000.000 requiere aprobación del
+     Directorio) y al punto 7 (cualquier excepción a los límites del
+     proceso debe constar en un documento interno de la instancia
+     competente, no comunicado a los oferentes), **esta inclusión
+     requiere autorización formal y documentada del Directorio antes de
+     dar cualquier paso adicional con C** (segunda ronda, negociación,
+     comunicación). No se ha registrado tal autorización a la fecha.
+  2. Se reitera que el precio de C sigue excediendo en 5,74% el
+     presupuesto referencial — la excepción no modifica ese hecho, solo
+     autoriza (si se formaliza) continuar el proceso con esa oferta.
+- Responsable / agente: ranking (`04_ranking.md`) — cerrado, a la espera
+  de que el usuario avance a `05_informe.md` y de la autorización formal
+  pendiente respecto de C.
